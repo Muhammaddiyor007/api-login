@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import axios from 'axios';
-import { Link, useNavigate } from 'react-router-dom'; // ← useNavigate qo‘shildi
+import { Link, useNavigate } from 'react-router-dom'; 
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
@@ -8,7 +8,7 @@ const Register = () => {
   const [fullname, setFullname] = useState('');
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
-  const navigate = useNavigate(); // ← bu yerda chaqirildi
+  const navigate = useNavigate(); 
 
   const handleRegister = async (e) => {
     e.preventDefault();
@@ -27,7 +27,6 @@ const Register = () => {
         autoClose: 2000,
       });
 
-      // navigate qo‘shildi
       setTimeout(() => navigate('/dashboard'), 2000);
 
     } catch (error) {

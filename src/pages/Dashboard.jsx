@@ -1,5 +1,3 @@
-// src/pages/Dashboard.jsx
-
 import LogoutButton from '../components/LogoutButton';
 
 const Dashboard = () => {

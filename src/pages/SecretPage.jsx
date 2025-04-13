@@ -1,5 +1,3 @@
-// src/pages/SecretPage.jsx
-
 import LogoutButton from '../components/LogoutButton';
 
 const SecretPage = () => {
